@@ -1,3 +1,12 @@
+# 바이너리 / 설치 파일
+cloudflared-linux-amd64
+cloudflared-linux-amd64.deb
+
+# 로그 / 임시 파일
+*.log
+TODO.txt
+gcloud_commands.txt
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -32,6 +41,9 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+
+# Unreal 환경 설정 (실제 키 포함) — .example 파일만 커밋
+src/unreal/**/Config/DefaultDigitalTwin.ini
 
 # vercel
 .vercel

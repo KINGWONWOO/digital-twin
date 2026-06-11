@@ -1,0 +1,11 @@
+[DigitalTwin.Supabase]
+URL=https://<project-ref>.supabase.co
+AnonKey=<your-supabase-anon-key>
+
+[DigitalTwin.Polling]
+DefaultIntervalSec=2.0
+MaxIntervalSec=30.0
+
+[DigitalTwin.Thresholds]
+MaxTemperatureCelsius=85.0
+MaxVibrationMms=5.0
