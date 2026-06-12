@@ -2,6 +2,9 @@
 cloudflared-linux-amd64
 cloudflared-linux-amd64.deb
 
+# Epic PixelStreamingInfrastructure (693MB 외부 저장소 — git clone으로 별도 취득)
+PixelStreamingInfrastructure/
+
 # 로그 / 임시 파일
 *.log
 TODO.txt
